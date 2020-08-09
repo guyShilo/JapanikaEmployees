@@ -1,0 +1,31 @@
+{
+  "name": "graphqlmongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node --inspect=5858 -r ts-node/register ./src/server.ts",
+    "dev": "nodemon",
+    "build": "tsc",
+    "script": "cd src/scripts && ts-node"
+  },
+  "author": "Guy Shilo",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.3.0",
+    "@types/express": "^4.17.7",
+    "@types/moment": "^2.13.0",
+    "@types/mongoose": "^5.7.31",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "loadsh": "0.0.4",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.24",
+    "node-uuid": "^1.4.8",
+    "node-xlsx": "^0.15.0",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
